@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="portfolio_style.css">
+    <script src="portfolio_js.js"></script>
+    <title>Kimathi Brian Muriungi</title>
+    <link rel="icon" href="mylogo.jpg">
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="mylogo">Bkim</a>
+        <ul class="nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <i><img src="search.png"></i>
+        </div>
+    </header>
+    <div class="page">
+        <div class="content active">
+            <h1 class="self-title">
+                Web-designer
+            </h1>
+            <h4>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JAVASCRIPT</span>
+            </h4>
+            <p>
+                All about web-design by using html,css & js
+            </p>
+            <div class="button">
+                <a href="#">Myself</a>
+            </div>
+        </div>
+        <div class="content">
+            <h1 class="self-title">
+                Web-designer
+            </h1>
+            <h4>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JAVASCRIPT</span>
+            </h4>
+            <p>
+                All about web-design by using html,css & js
+            </p>
+            <div class="button">
+                <a href="#">Myself</a>
+            </div>
+        </div>
+        <div class="content">
+            <h1 class="self-title">
+                Web-designer
+            </h1>
+            <h4>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JAVASCRIPT</span>
+            </h4>
+            <p>
+                All about web-design by using html,css & js
+            </p>
+            <div class="button">
+                <a href="#">Myself</a>
+            </div>
+        </div>
+        <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item" onclick="changeBg('mylogo.jpg')">
+                    <img src="mylogo.jpg" alt="">
+                </div>
+                <div class="carousel-item" onclick="changeBg('my profile pic.jpg')">
+                    <img src="my profile pic.jpg" alt="">
+                </div>
+                <div class="carousel-item" onclick="changeBg('brianimage.jpg')">
+                    <img src="brianimage.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/"><img src="facebook logo.png"></a></li>
+            <li><a href="https://twitter.com/bkimking"><img src="twitter logo.png"></a></li>
+            <li><a href="http://www.youtube.com/@bkimking"><img src="youtube logo.png"></a></li>
+        </ul>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="portfolio_js.js"></script>
+    <script>
+        $(document).ready(function(){
+    $('.carousel').carousel();});
+    </script>
+</body>
+</html>
