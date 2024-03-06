@@ -3,12 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media(min-width: 750px){
+    body{
+        min-height: 300px;
+    }
+}
 :root{
     --primary: orangered;
 }
 body{
     background: black;
     font-family: fantasy, sans-serif;
+    width: 100%;
 }
 header{
     position: absolute;
@@ -74,6 +80,14 @@ header{
 }
 .nav li:hover a{
     color: var(--primary);
+}
+
+
+@media(max-width:800px){
+    body{
+        width: 100%;
+        max-width: none;
+    }
 }
 .search{
     position: relative;
